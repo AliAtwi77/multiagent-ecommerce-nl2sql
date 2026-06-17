@@ -1,0 +1,15 @@
+.venv/
+venv/
+
+env/
+env/.env
+.env
+
+**/iframe_figures/
+**/__pycache__/
+
+notebooks/debug_chart.html
+src/ecommerce.db
+
+data/
+database/
