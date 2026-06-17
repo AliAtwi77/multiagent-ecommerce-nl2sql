@@ -1,0 +1,20 @@
+FROM python:3.12-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    graphviz \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+# Add this line right here:
+ENV PYTHONPATH=/app/src
+
+RUN mkdir -p src database
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY src/nl2sql_agent.py ./src/
+COPY src/fastapi_app.py ./src/
+
+EXPOSE 8000
+CMD ["uvicorn", "src.fastapi_app:app", "--host", "0.0.0.0", "--port", "8000"]
