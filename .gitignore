@@ -10,6 +10,7 @@ env/.env
 
 notebooks/debug_chart.html
 src/ecommerce.db
+database/ecommerce.db
 
 data/
 database/
