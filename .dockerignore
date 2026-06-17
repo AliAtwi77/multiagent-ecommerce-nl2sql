@@ -8,3 +8,4 @@ database/
 data/
 notebooks/
 src/create_sql_db.py
+src/ecommerce.db
