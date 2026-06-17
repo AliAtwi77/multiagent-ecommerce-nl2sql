@@ -1,5 +1,4 @@
 from fastapi import FastAPI, HTTPException
-import requests
 from pydantic import BaseModel
 from src.nl2sql_agent import process_question, get_graph_image
 from fastapi.responses import Response
