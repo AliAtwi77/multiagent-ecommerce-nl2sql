@@ -24,7 +24,7 @@ Built with **LangGraph**, **FastAPI**, **Streamlit**, and **OpenAI / Anthropic**
 
 ## 📸 Demo
 
-> <video src="./graph_image_demo/ecommerce_nl2sq_demo.mp4" width="600" controls></video>
+> <video src="https://github.com/user-attachments/assets/b55bebcd-63e5-4415-863e-eae544fabd07" width="600" controls></video>
 
 
 ---
