@@ -31,8 +31,8 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### 💡 Example Questions")
     examples = [
-        "How many orders were delivered?",
-        "Top 5 product categories by sales?",
+        "Which customers placed orders in more than 3 different product categories?",
+        "What is the correlation between review score and delivery delay in days?",
         "Find the top 10 customers who spent the most money across all their orders",
         "Which sellers have the most orders?"
     ]
