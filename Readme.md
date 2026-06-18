@@ -24,9 +24,8 @@ Built with **LangGraph**, **FastAPI**, **Streamlit**, and **OpenAI / Anthropic**
 
 ## 📸 Demo
 
-> Ask: *"What is the distribution of review scores across all orders? Show as a percentage breakdown."*
->
-> The assistant generates SQL, executes it, interprets the results, and renders an interactive bar chart — all automatically.
+> <video src="./graph_image_demo/ecommerce_nl2sq_demo.mp4" width="600" controls></video>
+
 
 ---
 
