@@ -24,7 +24,7 @@ Built with **LangGraph**, **FastAPI**, **Streamlit**, and **OpenAI / Anthropic**
 
 ## 📸 Demo
 
-> Ask: *"Top 5 product categories by sales?"*
+> Ask: *"What is the distribution of review scores across all orders? Show as a percentage breakdown."*
 >
 > The assistant generates SQL, executes it, interprets the results, and renders an interactive bar chart — all automatically.
 
@@ -81,6 +81,12 @@ NL2SQL/
 ```
 
 ---
+## Data Visualization with Plotly
+
+This project uses Plotly to create interactive and dynamic data visualizations from query results. Depending on the user's request and the selected chart type, the application generates charts such as bar charts, line charts, pie charts, and scatter plots.
+
+Plotly provides features such as zooming, panning, tooltips, and exporting charts as images, enabling users to explore the data more effectively. The generated visualizations are rendered directly in the application to deliver an intuitive and interactive analytics experience.
+
 
 ## 📊 Dataset
 
@@ -102,13 +108,17 @@ This project uses the [Brazilian E-Commerce Public Dataset by Olist](https://www
 
 > **Download the dataset from Kaggle and place the CSV files in the `data/` folder before running setup.**
 
+
+![Database Schema](./graph_image/sample_modeling.png)
+
 ---
+
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Python 3.10+
+- Python 3.11+
 - Docker & Docker Compose (for containerized deployment)
 - Kaggle account to download the dataset
 
@@ -219,9 +229,9 @@ Returns `{"status": "ok"}` — useful for container health checks.
 - How many orders were delivered?
 - What are the top 5 product categories by total sales?
 - Which sellers have the highest average review score?
-- Show monthly order volume trends for 2017
+- Which customers placed orders in more than 3 different product categories?
 - Find the top 10 customers by total spending
-- Which payment methods are most commonly used?
+- What is the correlation between review score and delivery delay in days?
 
 ---
 
