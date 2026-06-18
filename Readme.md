@@ -1,3 +1,5 @@
+
+
 # 🛍️ NL2SQL E-Commerce Assistant
 
 ## The Problem: Data Locked Behind a Technical Wall
@@ -44,8 +46,8 @@ Built with **LangGraph**, **FastAPI**, **Streamlit**, and **OpenAI / Anthropic**
 
 ## 🏗️ Architecture
 
-![Multi-Agent Workflow Graph](./graph_image/output.png)
 
+<img width="674" height="801" alt="Multi-Agent Workflow Graph" src="https://github.com/user-attachments/assets/e1a61064-5273-4159-9e79-a50c780b0b3c" />
 
 The agent graph is built with **LangGraph** and can be visualized directly from the Streamlit sidebar.
 
@@ -107,9 +109,7 @@ This project uses the [Brazilian E-Commerce Public Dataset by Olist](https://www
 
 > **Download the dataset from Kaggle and place the CSV files in the `data/` folder before running setup.**
 
-
-![Database Schema](./graph_image/sample_modeling.png)
-
+<img width="1090" height="947" alt="Database Schema" src="https://github.com/user-attachments/assets/55bc7e61-4929-4606-9720-1178809823ae" />
 ---
 
 
