@@ -34,7 +34,7 @@ with st.sidebar:
         "Which customers placed orders in more than 3 different product categories?",
         "What is the correlation between review score and delivery delay in days?",
         "Find the top 10 customers who spent the most money across all their orders",
-        "Which sellers have the most orders?"
+        "Is there a relationship between product weight and freight cost? Show a scatter plot of product weight vs average freight value per product."
     ]
     def set_input(text):
         st.session_state.user_input = text
